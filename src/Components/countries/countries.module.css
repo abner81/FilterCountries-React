@@ -1,0 +1,33 @@
+.flexRow {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.country {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.flag {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.text {
+  text-align: center;
+}
